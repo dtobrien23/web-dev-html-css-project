@@ -1,0 +1,323 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Optima;
+    background-color: white;
+}
+
+h1.h1top, h1.h1bottom {
+    font-family: Optima;
+    text-align: left;
+    font-size: 22px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0
+}
+
+h1.h1top {
+    cursor: default;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+h1.h1bottom {
+    cursor: default;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/*Text-shadow - https://code.tutsplus.com/tutorials/10-css3-properties-you-need-to-be-familiar-with--net-16417
+Referenced code - 
+    text-shadow: 0 1px 0 black, 0 -1px 0 black, 1px 0 0 black, -1px 0 0 black;
+*/
+
+hgroup h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-shadow: 0 1px 0 black, 0 -1px 0 black, 1px 0 0 black, -1px 0 0 black;
+    color: white;
+}
+
+hgroup h4 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+h2 {
+    color: red;
+}
+
+/*Nav bar - https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp
+Referenced code - 
+    .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    }
+    
+    .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    }
+    
+    .sidebar a:hover:not(.active) {
+    background-color: #555;
+*/
+
+nav {
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    background-image: linear-gradient(90deg, #c21a1a, red);
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+}
+
+li.current {
+    text-align: center;
+    color: grey;
+    cursor: default;
+    text-decoration: none;
+    display: block;
+    background: gold;
+    height: 57px;
+    width: 200px;
+
+}
+
+a.navbar:link {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 160px;
+    padding: 20px;
+}
+
+a.navbar:hover {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 160px;
+    padding: 20px;
+    background-color: red;
+}
+
+a.navbar:visited {
+    color: white;
+}
+
+.parade {
+    float: left;
+    margin-left: 200px;
+}
+
+.content {
+    margin-left: 220px;
+    margin-right: 35px;
+    float: left;
+}
+
+img.crest {
+    float: right;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    width: 35px;
+}
+
+img.callout {
+    float: left;
+    max-width: 100%;
+}
+
+img.me {
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 200px;
+    float: right;
+}
+
+.premierleague {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    float: right;
+    width: 450px;
+    display: inline-block;
+}
+
+p {
+    text-align: justify;
+    font-size: 22px;
+}
+
+p::first-letter {
+    font-size: 150%;
+    color: gold;
+}
+
+table {
+    margin-top: 15px;
+    margin-left: 20px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00B2A9;
+    width: 40%;
+    text-align: center;
+    float: right;
+}
+
+td {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #00B2A9;
+}
+
+ol  {
+    width: 93%;
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00B2A9;
+    border-radius: 10px;
+    text-align: center;
+    float: right;
+}
+
+
+.stats {
+    float: right;
+}
+
+.players {
+    float: left;
+}
+
+#topscorers {
+    width: 35%;
+    padding-left: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    float: right;
+}
+
+h3 {
+    color: red;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.cl {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    float: right;
+    width: 450px;
+}
+
+#leaguecup {
+    float:left;
+    width:50%;
+    margin-right: 30px;
+}
+
+/*Gallery - https://www.w3schools.com/css/css_image_gallery.asp
+Referenced code - 
+    div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    }
+
+    div.gallery:hover {
+    border: 1px solid #777;
+    }
+
+    div.gallery img {
+    width: 100%;
+    height: auto;
+    }
+
+    div.desc {
+    padding: 15px;
+    text-align: center;
+*/
+
+/*Box-shadow - https://www.w3schools.com/css/css3_shadows_box.asp
+Referenced code - 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+*/
+
+.gallery {
+    margin: 12px;
+    border: 5px double #00B2A9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    width: 360px;
+}
+
+.gallery:hover {
+    border: 5px double gold;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.fit {
+    padding: 17px;
+    text-align: center;
+}
+
+/*Text-overflow - https://www.w3schools.com/css/css3_text_effects.asp
+Referenced code - 
+    p.test1 {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
+    }
+*/
+
+p.clfinal {
+    white-space: nowrap;
+    width: 1200px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p.clfinal:hover {
+    overflow: visible;
+    white-space: normal;
+}
